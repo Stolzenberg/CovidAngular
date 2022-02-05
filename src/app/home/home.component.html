@@ -1,3 +1,8 @@
-<div class="flex-1 flex flex-col bg-slate-50">
-    <p>Home is working...</p>
+<div class="pb-12 m-6">
+    <div class="grid gap-4 grid-cols-4" >
+        <app-article 
+            *ngFor="let article of articles" 
+            [article]="article">
+        </app-article>
+    </div>
 </div>

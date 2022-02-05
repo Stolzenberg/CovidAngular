@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+	production: false,
+	azure: {
+		getCovidInfo: 'https://stolzenberggetcovidinfo.azurewebsites.net/api/GetCovidInfo?code=aM77jX8TmJBGOrffqCQ8poS0RaJWUSf71DLkiAQkIJMxFWcu1KUotQ=='
+	}
 };
 
 /*
